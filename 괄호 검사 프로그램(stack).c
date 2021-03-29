@@ -1,8 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS //scanf 에러 해결법
 #include<stdio.h>
 #include<stdlib.h>
-
 #define MAX_STACK_SIZE 100					//배열의 크기
+
 typedef int element;						//int -> element
 typedef struct {							//구조체 선언
 	element data[MAX_STACK_SIZE];
